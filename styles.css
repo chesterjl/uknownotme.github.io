@@ -1,0 +1,304 @@
+.taask {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box; 
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  position: absolute;
+  top: 25px; 
+  right: 1px; 
+  padding: 10px 20px;
+  background-color: rgba(0); 
+}
+
+.navbar ul {
+  list-style-type: none; 
+  display: flex; 
+}
+
+.navbar li {
+  margin-left: 30px; 
+}
+
+.navbar a {
+  color: white; 
+  text-decoration: none;
+  font-weight: bold; 
+}
+
+.navbar a:hover {
+  text-decoration: underline; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('Free-Space-Background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.hero .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 30px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+
+    color: #006eff;
+}
+
+.container {
+    width: 900%;
+    max-width: 1600px;
+    text-align: center; 
+}
+
+.globe-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0; 
+}
+
+.globe-container img {
+    width: 300%;
+    max-width: 400px; 
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+   
+}
+
+.text-content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.globe-container {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sun-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+}
+
+.sun-button:hover {
+    letter-spacing: 4px;
+    background-color: hsl(36, 100%, 45%);
+    box-shadow: hsl(22, 88%, 50%) 0px 7px 29px 0px;
+}
+
+  .mercury-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .mercury-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 26%);
+    box-shadow: hsl(0, 1%, 29%) 0px 7px 29px 0px;
+  }
+  
+  .venus-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .venus-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(27, 100%, 24%); 
+    box-shadow: hsl(27, 100%, 24%) 0px 7px 29px 0px;
+  }
+
+  .earth-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .earth-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(200, 70%, 50%); /* Blue */
+    box-shadow: hsl(200, 70%, 50%) 0px 7px 29px 0px;
+  }
+  
+  .mars-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .mars-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(24, 100%, 39%); 
+    box-shadow: hsl(27, 99%, 43%) 0px 7px 29px 0px;
+  }
+  
+  .jupiter-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .jupiter-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(32, 11%, 31%); 
+    box-shadow: hsl(27, 9%, 75%) 0px 7px 29px 0px;
+  }
+  
+  .saturn-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .saturn-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(35, 50%, 60%);
+    box-shadow: hsl(35, 50%, 60%) 0px 7px 29px 0px;
+  }
+  
+  .uranus-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .uranus-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(180, 70%, 70%); 
+    box-shadow: hsl(180, 70%, 70%) 0px 7px 29px 0px;
+  }
+  
+  .neptune-button {
+    padding: 15px 30px;
+    border-radius: 60px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.6s ease;
+  }
+  
+  .neptune-button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(210, 70%, 60%); 
+    box-shadow: hsl(210, 70%, 60%) 0px 7px 29px 0px;
+  }
+
